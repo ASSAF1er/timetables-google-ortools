@@ -9,10 +9,20 @@ Ce projet implémente un système de génération automatique d’emplois du tem
 - `rooms.json` : liste des salles disponibles pour la planification.
 - `rapport.pdf` : rapport LaTeX du projet, avec modélisation mathématique.
 - `README.md` : documentation du projet.
+- `capture d'ecran.png` : capture d'écran de la solution.
+
 
 ## Installation
 
-1. Installer les dépendances nécessaires :
+
+1. Cloner le dépôt ou copier les fichiers dans un dossier local :
+
+```bash
+git clone https://github.com/ASSAF1er/timetables-google-ortools.git
+cd timetables-google-ortools
+```
+
+2. Installer les dépendances nécessaires :
 
 ```bash
 pip install ortools
